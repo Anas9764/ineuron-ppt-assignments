@@ -1,0 +1,4 @@
+Q.1 <!DOCTYPE html> is it a tag of html? If not, what is it and why do we use it?
+
+Ans:
+<!DOCTYPE html>  is not a tag in HTML, it is known as the Document Type Declaration. It is used to specify the version of HTML that the web page is written in.The purpose of the Document Type Declaration is to inform the web browser about the version of HTML being used and to trigger the appropriate rendering mode on browser.

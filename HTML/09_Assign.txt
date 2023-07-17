@@ -1,0 +1,11 @@
+Q.9 What’s the difference between html tag and attribute and give example of some global attributes?
+
+Ans:
+
+ In HTML, tags define the elements, while attributes provide additional information or modify the behavior of those elements.
+
+ Ex: <a href="https://example.com">This is a link</a>
+
+    Here a is anchor tag and href is an attribute refers to link..
+
+    

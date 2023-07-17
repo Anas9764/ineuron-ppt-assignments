@@ -1,0 +1,11 @@
+Q.2 What are the Different Types of Selectors in CSS & what are the advantages of them?
+
+Ans:
+
+Element selectors: Select elements based on their tag name. For example, p selects all <p> elements.
+
+Class selectors: Select elements with a specific class attribute. For example, .my-class selects all elements with class="my-class".
+
+ID selectors: Select a single element with a specific ID attribute. For example, #my-id selects the element with id="my-id".
+
+Attribute selectors: Select elements based on their attribute values. For example, [type="text"] selects all elements with type="text".

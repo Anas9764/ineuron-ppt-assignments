@@ -1,0 +1,7 @@
+Q.6 What’s z-index and How does it Function ?
+
+Ans:
+
+z-index is a CSS property that controls the stacking order of elements on a web page. It specifies the "z-axis" position of an element relative to other elements. The z-index property can take an integer value, where a higher value brings an element closer to the front and a lower value moves it further back.
+
+Ex: z-index: -1

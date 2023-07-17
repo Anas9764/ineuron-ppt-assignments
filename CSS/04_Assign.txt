@@ -1,0 +1,12 @@
+Q.4 Whats difference between Inline, Inline Block and block ?
+
+Ans:
+
+Differences b/w inline, inline-block, block
+
+
+Inline: Elements with the display: inline property are rendered in a line and do not start on a new line. They do not have a fixed width or height, and margins and padding on inline elements only affect the horizontal space around them, not the vertical space. Inline elements cannot have a width or height specified.
+
+Inline-block: Elements with the display: inline-block property are rendered in a line like inline elements, but they can have a specified width and height. Inline-block elements can have margins and padding, which affect both the horizontal and vertical space around them. They allow for more control over layout compared to inline elements.
+
+Block: Elements with the display: block property start on a new line and occupy the full available width.

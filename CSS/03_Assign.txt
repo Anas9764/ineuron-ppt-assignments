@@ -1,0 +1,11 @@
+Q.3 What is VW/VH ?
+
+Ans:
+
+VW/VH stands for viewport width and viewport height, respectively. 
+
+The difference between VW/VH and PX (pixels) is as follows:
+
+VW/VH: 1 VW is equal to 1% of the viewport width, and 1 VH is equal to 1% of the viewport height. They are responsive units that adjust automatically when the viewport size changes.
+
+PX: Pixels are an absolute unit of measurement. 1 pixel represents a single dot on a screen and has a fixed size. PX values do not change with the viewport size.

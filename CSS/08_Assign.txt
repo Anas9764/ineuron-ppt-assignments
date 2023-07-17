@@ -1,0 +1,12 @@
+Q.8 Difference between absolute and relative and sticky and fixed position explain with example.
+
+Ans:
+
+Absolute position: An absolutely positioned element is positioned relative to its closest positioned ancestor or to the initial containing block if no positioned ancestor is found.
+
+Relative position: A relatively positioned element is positioned relative to its normal position in the document flow. It still occupies its original space in the document layout, but it can be shifted using the top, bottom, left, and right properties. Other elements will still respect its original position. 
+
+Sticky position: A sticky positioned element is positioned based on the user's scroll position. It behaves like position: relative until the user scrolls to a specified threshold, at which point it becomes position: fixed and sticks to a specified position on the viewport. 
+
+
+Fixed position: A fixed positioned element is positioned relative to the viewport, meaning it will stay fixed in its specified position even when the page is scrolled.

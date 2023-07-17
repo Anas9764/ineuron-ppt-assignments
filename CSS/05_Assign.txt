@@ -1,0 +1,7 @@
+Q.5 How is Border-box different from Content Box?
+
+Ans:
+
+Content Box (default): With box-sizing: content-box, the specified width and height of an element only include the content area. Padding, borders, and margins are added on top of the specified width and height. This can cause the total width of an element to exceed the specified width when borders and padding are added.
+
+Border-box: With box-sizing: border-box, the specified width and height of an element include both the content area, padding, and borders. Margins are still added outside the specified width and height. This ensures that the total width of an element remains consistent, even when borders and padding are added.

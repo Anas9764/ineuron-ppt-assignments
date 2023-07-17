@@ -1,0 +1,13 @@
+Q.6 What are some of the advantages of HTML5 over its previous versions?
+
+Ans:
+
+Advantages of HTML5:
+
+1) Improved multimedia support: HTML5 introduced new elements and APIs for handling multimedia content, such as audio and video, without the need for third-party plugins like Flash.
+
+2) Native support for graphics and animations: HTML5 brought the <canvas> element, which allows for drawing graphics and animations directly within the browser without plugins.
+
+3) Enhanced form controls: HTML5 introduced new input types (e.g., email, date, range) and attributes that make form handling more robust and user-friendly.
+
+4) Mobile device support: HTML5 was designed with mobile devices in mind, offering better support for responsive design and touch-based interactions.

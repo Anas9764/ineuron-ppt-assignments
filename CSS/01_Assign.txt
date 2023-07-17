@@ -1,0 +1,12 @@
+Q.1 What’s Box Model in CSS ? 
+
+Ans:
+Box Model consists of four types we can say:
+
+Margin: It is the space outside the element's border. Margins create space between the element and other adjacent elements.
+
+Padding: It is the space between the content and the element's border. Padding can be used to add space within the element.
+
+Content: It represents the actual content of the element, such as text, images, or other media.
+
+Border: It is a line that surrounds the padding and content of the element. Borders can be styled and have a specific width.
