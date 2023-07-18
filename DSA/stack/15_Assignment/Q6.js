@@ -1,0 +1,27 @@
+int evaluatePostfix(string S){
+    stack<int> s;
+    for(int i=0;i<S.size();i++){
+        if(S[i]>='0' && S[i]<='9'){
+            s.push(S[i]-'0');
+        }
+        else{
+            int a=s.top();
+            s.pop();
+            int b=s.top();
+            s.pop();
+            if(S[i]=='+'){
+                s.push(b+a);
+            }
+            else if(S[i]=='-'){
+                s.push(b-a);
+            }
+            else if(S[i]=='*'){
+                s.push(b*a);
+            }
+            else if(S[i]=='/'){
+                s.push(b/a);
+            }
+        }
+    }
+    return s.top();
+}

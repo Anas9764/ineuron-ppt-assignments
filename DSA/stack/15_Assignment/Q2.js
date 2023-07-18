@@ -1,12 +1,8 @@
-vector<int> nextGreaterFrequency(vector<int> arr, int n){
+vector<int> leftSmaller(int n, int a[]){
     vector<int> ans(n);
     stack<int> s;
-    unordered_map<int,int> m;
     for(int i=0;i<n;i++){
-        m[arr[i]]++;
-    }
-    for(int i=n-1;i>=0;i--){
-        while(!s.empty() && m[s.top()]<=m[arr[i]]){
+        while(!s.empty() && s.top()>=a[i]){
             s.pop();
         }
         if(s.empty()){
@@ -15,7 +11,7 @@ vector<int> nextGreaterFrequency(vector<int> arr, int n){
         else{
             ans[i]=s.top();
         }
-        s.push(arr[i]);
+        s.push(a[i]);
     }
     return ans;
 }
